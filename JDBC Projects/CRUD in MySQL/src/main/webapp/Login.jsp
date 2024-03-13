@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Login Page </title>
+    <style>
+        Body {
+          font-family: Calibri, Helvetica, sans-serif;
+          background-color: pink;
+        }
+        button {
+               background-color: #4CAF50;
+               width: 100%;
+                color: orange;
+                padding: 15px;
+                margin: 10px 0px;
+                border: none;
+                cursor: pointer;
+                 }
+         form {
+                border: 3px solid #f1f1f1;
+            }
+         input[type=text], input[type=password], input[type=email] {
+                width: 100%;
+                margin: 8px 0;
+                padding: 12px 20px;
+                display: inline-block;
+                border: 2px solid green;
+                box-sizing: border-box;
+            }
+         button:hover {
+                opacity: 0.7;
+            }
+          .cancelbtn {
+                width: auto;
+                padding: 10px 18px;
+                margin: 10px 5px;
+            }
+
+
+         .container {
+                padding: 25px;
+                background-color: lightblue;
+            }
+    </style>
+</head>
+<body>
+<h1> Login Form </h1>
+<form action="Login" method= "post">
+    <div class="container">
+
+        <label>Username : </label>
+        <label>
+            <input type="text" placeholder="Enter Username" name="name" required>
+        </label>
+
+        <label>Password : </label>
+        <label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+        </label>
+
+        <button type="submit">Login</button>
+
+    </div>
+</form>
+
+</body>
+</html>
